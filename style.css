@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  height: 800px;
+  background-color:#75b8dd;
+  align-items: center;
+ 
+  
+}
+
+table {
+    background: white;
+    border-radius:3px;
+    border: 1px solid rgb(110, 107, 107);
+    height: 320px;
+    margin: auto;
+    max-width: 800px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid{
+    background-color: lightpink;
+    width: 1000px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: content-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.login{
+    background-color: lightpink;
+    width: 400px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: content-box;
+    border-radius: 5%;
+}
+ input {
+    height: 30px;
+    width: 200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 8%;
+}
